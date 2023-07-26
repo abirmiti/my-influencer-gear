@@ -1,0 +1,109 @@
+/* section1 start */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #eee8e8;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: rgb(50, 49, 49);
+}
+
+.tex-1 a button {
+    color: white;
+    background-color: rgb(241, 38, 7);
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 800;
+}
+
+.tex-1 {
+    /* margin-left: 100px; */
+    /* margin-top: 50px; */
+}
+
+.title-1 {
+    font-size: 50px;
+}
+
+.thumbnail {
+    margin-left: 150px;
+}
+
+/* .section-1 end */
+.line {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Collection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Collection-title {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(50, 49, 49);
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.item {
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.item-title {
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.item-details {
+    margin-top: -20px;
+}
+
+.fa-star,
+.style,
+.empty {
+    font-size: 10px;
+}
+
+.style {
+    color: gold;
+}
+
+.empty {
+    color: gold;
+}
+
+.value {
+    color: rgb(124 121 121);
+    margin-top: -15px;
+}
+
+.text {
+    font-size: 14px;
+    color: rgb(124 121 121);
+}
