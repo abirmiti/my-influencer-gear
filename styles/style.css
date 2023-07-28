@@ -241,7 +241,15 @@ body {
     }
 
     .text-1 a button {
-        margin-left: 144px;
+        margin-left: 108px;
+        padding: 18px 50px;
+        font-size: 18px;
+    }
+
+    .text-2 a button {
+        padding: 17px 45px;
+        font-size: 18px;
+        margin-left: -17px;
     }
 
     .thumbnail {
@@ -263,10 +271,23 @@ body {
 
     .section-2 {
         flex-direction: column-reverse;
+        margin-top: 10px;
     }
 
     .thumbnail-2 {
         margin-left: 40px;
         margin-top: 50px;
+    }
+
+    .text-2 p {
+        font-size: 23px;
+        margin-left: -150px;
+        text-align: center;
+    }
+
+    .title-2 {
+        margin-left: -150px;
+        text-align: center;
+        font-size: 31px;
     }
 }
